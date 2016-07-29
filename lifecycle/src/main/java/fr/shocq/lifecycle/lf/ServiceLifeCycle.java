@@ -1,4 +1,4 @@
-package fr.shocq.sample.lf;
+package fr.shocq.lifecycle.lf;
 
 import android.app.Service;
 

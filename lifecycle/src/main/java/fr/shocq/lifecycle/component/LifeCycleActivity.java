@@ -1,4 +1,4 @@
-package fr.shocq.sample.component;
+package fr.shocq.lifecycle.component;
 
 import android.content.Intent;
 import android.content.res.Configuration;
@@ -9,7 +9,7 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
-import fr.shocq.sample.lf.LifeCycle;
+import fr.shocq.lifecycle.lf.LifeCycle;
 
 
 public class LifeCycleActivity extends AppCompatActivity {

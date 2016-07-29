@@ -1,4 +1,4 @@
-package fr.shocq.sample.component;
+package fr.shocq.lifecycle.component;
 
 import android.app.Service;
 import android.content.Intent;
@@ -7,7 +7,7 @@ import android.os.IBinder;
 import java.util.Collection;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
-import fr.shocq.sample.lf.ServiceLifeCycle;
+import fr.shocq.lifecycle.lf.ServiceLifeCycle;
 
 /**
  * Service that enable the use of ServiceLifeCycle

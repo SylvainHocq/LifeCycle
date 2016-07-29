@@ -1,4 +1,4 @@
-package fr.shocq.sample.lf;
+package fr.shocq.lifecycle.lf;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -12,7 +12,7 @@ import android.view.ViewGroup;
 import java.lang.ref.SoftReference;
 
 @SuppressWarnings("unused")
-public abstract class LifeCycle<ActivityOrFragment extends Object> {
+public abstract class ActivityLifeCycle<ActivityOrFragment extends Object> {
 
     @SuppressWarnings("unused")
     private static final String TAG = "LifeCycleHandler";

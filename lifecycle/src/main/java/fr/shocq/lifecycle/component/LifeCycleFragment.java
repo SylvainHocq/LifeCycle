@@ -1,4 +1,4 @@
-package fr.shocq.sample.component;
+package fr.shocq.lifecycle.component;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -11,7 +11,7 @@ import android.view.ViewGroup;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
-import fr.shocq.sample.lf.LifeCycle;
+import fr.shocq.lifecycle.lf.LifeCycle;
 
 public class LifeCycleFragment extends Fragment {
     /**

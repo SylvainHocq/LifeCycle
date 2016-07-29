@@ -2,7 +2,7 @@ package fr.shocq.sample;
 
 import android.util.Log;
 
-import fr.shocq.sample.lf.LifeCycle;
+import fr.shocq.lifecycle.lf.LifeCycle;
 
 public class LogLifeCycle extends LifeCycle {
     private static final String TAG = LogLifeCycle.class.getSimpleName();
